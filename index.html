@@ -1,109 +1,166 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="ja"><![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="ja"><![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="ja"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="ja"><!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="YouTube動画簡単ダウンロード">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.thxyoutube.com/watch/">
-<meta property="og:image" content="https://i.ytimg.com/vi//sddefault.jpg">
-<meta property="og:site_name" content="動画簡単ダウンロード！無料！インストール不要！">
-<title glot-model="title">YouTube動画簡単ダウンロード</title>
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/style.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script> (window.jQuery || document .write('<script src="js/jquery-1.11.2.min.js"><\/script>')); var vid = ""; var lid = ""; var videoUrl = ""; var nextUrl = "/watch/?v="; </script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<script src="/js/thx.js"></script>
-<script src="/js/adMedi8.js"></script>
-<script src="https://apis.google.com/js/client.js?onload=onGoogleClientLoad"></script>
-<script src="https://unpkg.com/glottologist"></script>
-<!--[if lt IE 9]> <script src="/js/html5shiv.min.js"></script> <script src="/js/IE9.js"></script> <script src="/js/css3-mediaqueries.js"></script> <![endif]-->
-<style type="text/css"> <!-- video { background-repeat: no-repeat,no-repeat; background-size:128px 15px,cover; background-position: center,center; } --> </style>
+<!doctype html>
+
+<html lang="en">
+<head>	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Stay offline!" />
+<meta name="referrer" content="no-referrer" />
+
+<title>Offliberty - evidence of offline life</title>
+
+<link href="/css/off.min.css?v=1.2" media="all" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="image_src" href="http://offliberty.io/img/offliberty_logo.jpg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+
+
+<script>if(self != top) { top.location = self.location; }</script>
+<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script> 
+<script type="text/javascript"> <!-- //popup window centered function popupwindow(url, title, w, h) { wLeft = window.screenLeft ? window.screenLeft : window.screenX; wTop = window.screenTop ? window.screenTop : window.screenY; var left = wLeft + (window.innerWidth / 2) - (w / 2); var top = wTop + (window.innerHeight / 2) - (h / 2); return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left); } // USE: popupwindow('http://www.google.com/', 'hello', 400, 400); //--> </script>		 
+<script type="text/javascript" src="/js/jquery.address-1.4.min.js"></script>
+<script type="text/javascript" src="/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="/js/off.min.js?v=2"></script> 
+
+
+
+<script async src="https://fundingchoicesmessages.google.com/i/pub-1892602329620688?ers=1" nonce="TnrDDSHOb4Muhy7Q0CacEQ"></script><script nonce="TnrDDSHOb4Muhy7Q0CacEQ">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
 </head>
+
+
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); const glot = new Glottologist(); glot.import("/watch/lang.json").then(() => { glot.render(); }) </script>
-<div id="msgBox" glot-model="msgBox">正しい動画のURLを入力してください</div>
-<main role="main">
-<div id="mc">
-<div id="videourlinputbox">
-<div class="snsglobal">
-<ul>
-<li><a id="twitter" href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.thxyoutube.com/" data-text="動画簡単ダウンロード！無料！インストール不要！" data-size="large" data-hashtags="video,youtube,ダウンロード">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-<li><div class="fb-like" data-href="https://www.thxyoutube.com" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div></li>
-<li style="margin:5px 0 0 0;"><div id="line" class="line-it-button" data-lang="ja" data-type="like" data-url="https://www.thxyoutube.com" style="display: none;"></div><script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script></li>
-<ul>
-</div>
-<a href="/"><h1 glot-model="titleh1">動画簡単ダウンロード</h1></a>
-<div id="videourltext" glot-model="videourltext">↓ ダウンロードしたい動画URLを入力してください ↓</div>
-<div><input id="videourlinput" type="text" name="url" value="" placeholder="https://www.youtube.com/watch?v="></div>
-<div id="loginBox">
-<div class="label"><a id="logintitle" onclick="switchLogninInput()"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i> Login : <span class="exp" glot-model="login">録画にログインが必要な場合にはログイン情報の入力を行ってください</span></a></div>
-<div id="logininput">
-<input id="uname" type="text" name="uname" placeholder="User ID">
-<input id="pwd" type="password" name="pwd" placeholder="Password">
-</div>
-</div>
-<div id="submitBox">
-<input id="videourlsubmit" type="submit" glot-model="videourlsubmit" value="START" onClick="videoUrlSubmit()">
-<img id="submitloading" src="/images/loading.gif">
-</div>
+
+<div id=wrapper class=wrapper11>	<div id='bg-wrap'></div>
+    <div id='off-wrap' style="min-height:800px;">
+    
+        <div id="header">
+            <div style="clear:both; height:40px;"></div>
+            <div id="showProgress"></div>
+            <a href="/"><img src="/img/offliberty.png" style="width: 483px; height: 110px; border: 0" alt="Offliberty"></a>
+            <div id="showButton"></div>
+        </div>
+
+        <div id="form_div" style="padding: 20px 0px;">
+        
+            <form name="form" id="form" method="post" action="">
+                <fieldset>
+                    <input type="text" name="track" class="track" id="track" value="" placeholder="" /><BR />
+                    <label class="error" for="track" id="track_error">Paste the direct URL to your online content...</label>
+                    <br /><br />
+                    
+                    <input type="hidden" value="" name="refext" class="refext" id="refext" >
+                    <input type="submit" name="submit" class="button" id="button" value="" />
+                </fieldset>
+            </form>
+
+            <div id="wait">
+                <!--<p style="font-weight:bold; font-size:26px;">Wait and read below why you must wait so long...</p>-->
+                <img src="/img/reload.svg" style="width: 44px; height: 44px; border: 0;"><br />
+                <div id="goowait"></div><br />
+                <div id="progress"></div>		
+            </div>
+        
+        </div>
+
+
+        <div id="email_div">
+            
+            <p style="font-weight:bold; font-size:26px;">Offliberating this URL is not possible now.</p>
+            <BR /><BR />
+            <form name="form_email" id="form_email" method="post" action="">
+                <fieldset>
+                    <input type="text" name="email" class="email" id="email" value="" /><BR />
+                    <label class="error" for="email" id="email_error">Type your e-mail. When we Offliberate your URL you'll be the first to know about it.</label><BR><BR>
+                    <input type="text" id="empty" />
+                    <input type="hidden" value="" name="refext" class="refext" id="refext" >
+                    <input type="hidden" value="" name="new_site" class="new_site" id="new_site" />
+                    <input type="submit" name="submit" class="button_email" id="button_email" value=" E-mail me when this site will be Offliberated! " />
+                    <BR /><BR /><BR />
+                    <a href="http://offliberty.io" style="font-weight:bold; font-size:14px; color:#000;">No, I will visit you One Day and check it again.</a>
+                </fieldset>
+            </form>
+            <div id="wait_email">
+                <img src="/img/reload.svg" style="width: 44px; height: 44px; border: 0;"><BR>
+            </div>
+
+        </div>
+
+        
+        <div id="about">
+            <p>
+            Offliberty lets you access any online content without a permanent Internet connection. Today most websites are difficult to browse offline. If you have limited access to the Internet you can use Offliberty to browse any content later - being offline.
+            </p>
+            <p>
+            If the Internet bus visits your village only once a week or your grandma doesn't let you use Internet more than 1 hour a day - Offliberty is for you.
+            </p>
+            <p>
+            Using Offliberty you agree with our <A HREF="tos"><FONT COLOR="#000">Terms of Service</FONT></A> and other sites usage rules before you take them offline.
+            </p>			
+            <p style="text-align:center;">
+            <BR />
+            <A HREF="#" id="cool">Good to know</A>
+            </p>
+        </div>
+        
+        
+        <div id="about_bookmarklet">
+            <p>Bookmarklets are bits of code you add to your browser's Bookmarks Toolbar so you can easily Offliberate stuff.<br /><br /></p>
+            <p>Installing the bookmarklet is easy:</p>
+            <p>1. First, make sure your browser's bookmark toolbar is visible <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;(Not visible? Choose "Bookmarks Toolbar" in View > Toolbars).</p>
+            <p>2. Then, just drag the BOOKMARKLET button to your Bookmarks Toolbar.</p>	
+            <p>That's it!</p>
+            <p><br />How to Offliberate with this ?</p>
+            <p>Press while browsing the site...<br /></p>
+            <p style="text-align:center;">
+            <BR /><BR />
+            <A HREF="#" id="cool">Awesome</A>
+            </p>
+        </div>
+        
+        
+        <div id="thx">
+            <p style="text-align:center; font-size:64px; padding: 44px; font-weight:bold;">
+            THANK YOU
+            </p>
+            <p style="text-align:center;">
+            <BR />
+            <A HREF="#" id="cool">That's OK</A>
+            <BR /><BR /><BR /><BR />
+            </p>
+        </div>
+
+        
+        <div id="menu">
+            <div id="offgoo" style="width:682px; height:280px;">
+                            <div style="float:left;">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1892602329620688" crossorigin="anonymous"></script>
+                    <!-- three336x280 -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-1892602329620688" data-ad-slot="7113726987"></ins>
+                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>				</div>
+                <div style="float:right;">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1892602329620688" crossorigin="anonymous"></script>
+                    <!-- three336x280 -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-1892602329620688" data-ad-slot="7113726987"></ins>
+                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>				</div>
+            </div>
+            <br /><br /><br />
+            <A href="#about" id="menu_about">FIRST TIME HERE?! Better late than never - Read THIS</A>
+            <br /><br />
+            <a href="javascript:var title = window.location.href; if (title.indexOf('http://offliberty.io') == 0) { (function(){ location.href='http://offliberty.io/#bookmarklet'; })(); } else { (function(){ window.open('http://offliberty.io/#'+encodeURIComponent(location.href)); })(); }" title="Offliberate this" alt="Offliberate this" style="background:black; color:white; padding: 0 4px 1px; -moz-border-radius: 5px; border-radius: 5px;">Offliberate this</a> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF="mailto:contact@offliberty.io">Contact</A> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF="/tos" rel="nofollow">Terms of Service</A> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF="/pacp" rel="nofollow">Privacy and Cookie Policy</A>
+            <br /><br />
+            
+            <br /><br />
+        </div>
+        
+        
+        <div id="bookmarklet-wrap"><a href="javascript:var title = window.location.href; if (title.indexOf('http://offliberty.io') == 0) { (function(){ location.href='http://offliberty.io/#bookmarklet'; })(); } else { (function(){ window.open('http://offliberty.io/#'+encodeURIComponent(location.href)); })(); }" title="Offliberate this" alt="Offliberate this" id="bookmarklet"><img src="img/bookmarklet.png" border="0" alt="Offliberate this" title="Drag this to your bookmarks"></a>
+        </div>
+            
+
+    </div>
+
 </div>
 
-<div id="bookmarklet">
-<a href="javascript:void((function(undefined){var url=location.href;if(url!=undefined&&url!=''){var hostname=location.hostname;if(hostname.match(/\.youtube.com/)){siteswitch('thxyoutube')}else if(hostname.match(/\.thxyoutube.com/)){siteswitch('youtube')}function siteswitch(hostname){var url='https://www.'+hostname+'.com';var arg=new Object;var pair=location.search.substring(1).split('&');for(var i=0;pair[i];i++){var kv=pair[i].split('=');arg[kv[0]]=kv[1]}if(arg.v!==null&&arg.v!==undefined&&arg.v!=''){url+='/watch/?v='+arg.v;if(arg.list!==null&&arg.list!==undefined&&arg.list!='')url+='&list='+arg.list;}location.href=url}}})());" glot-model="bookmarklete"><i class="fa fa-bookmark"></i> YouTube簡単DL</a>
-<div id="exp" style="word-break: break-all;" glot-model="bookmarkletexp">１クリックでYouTubeと動画簡単ダウンロードを相互に切り替えるブックマークレット<br>ブックマークツールバーに追加すると便利！</div>
-</div>
 
-<div id="videoplayer">
-<video id="video" width="560" controls>
-<source id="vsource" type="video/mp4">
-</div>
-
-<div id="videoinfo">
-<div id="videotitle"></div>
-</div>
-
-<div id="ad1"><script src="//adm.shinobi.jp/s/feade31ba05ac905fe2b6aa50f2d5c21"></script></div>
-
-<div id="dllist"></div>
-
-<div style="margin:10px 0;">
-<a href="https://m.thxyoutube.com/android.htm"><img id="androidapp" src="/images/thxyoutube_banner720x280.png"></a>
-</div>
-
-<div id="ad2">
-<div class="left"><script src="//adm.shinobi.jp/s/bbfaa93eb03d6334702ab6daa1b18074"></script></div>
-<div class="left"><script src="//adm.shinobi.jp/s/bbfaa93eb03d6334702ab6daa1b18074"></script></div>
-</div>
-
-<div id="playlist" class="videos"></div>
-<div id="relatedvideo" class="videos"></div>
-</div>
-</main>
-<footer role="contentinfo">
-<!-- div style="font-size:12px;color:#ccc;float:right;">server 2</div -->
-<div id="adFooter"><script src="//adm.shinobi.jp/s/89412cbeaa24787c06dd5bcadb6603af"></script></div>
-</footer>
-
-<div class="gray_panel" id="gray_panel"></div>
-<div id="nowloading">
-<div id="progress"><div id="progressBar"><div id="progressText"><div class="loader" style="left:-30px;">loading...</div> <span glot-model="loading">NOW LOADING</span> <div class="loader" style="left:30px;">loading...</div></div></div></div>
-<div id="progressAdVideo" class="middle" style="width:940px;margin: 10px auto 0 auto;">
-<div>
-<div class="left" style="width:310px;"><script src="//adm.shinobi.jp/s/f770035673d74a451eccedecdcc9e583"></script></div>
-<div class="left" style="width:310px;"><script src="//adm.shinobi.jp/s/f770035673d74a451eccedecdcc9e583"></script></div>
-<div class="left" style="width:310px;"><script src="//adm.shinobi.jp/s/f770035673d74a451eccedecdcc9e583"></script></div>
-</div>
-</div>
-
-<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-102828318-1', 'auto'); ga('send', 'pageview'); </script>
 </body>
 </html>
